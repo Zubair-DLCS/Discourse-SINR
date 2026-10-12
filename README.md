@@ -102,7 +102,7 @@ No downloads and no API keys. Every run is seeded and deterministic.
 - **This is synthetic data.** The finding that rhythm signals survive evasion depends on how
   I modelled human posting, which is session-clumped. That is exactly what has to be tested on
   real data.
-  - **The adversary is parameterised, not learned.** A natural extension is a learning attacker
+- **The adversary is parameterised, not learned.** A natural extension is a learning attacker
   that maximises SINR damage under a detection budget. This is the game-theoretic setting
   studied for reactive jammers.
 - **Displacement uses a simple volume-ranked feed.** Real ranking algorithms add engagement
@@ -110,9 +110,7 @@ No downloads and no API keys. Every run is seeded and deterministic.
 - **The social side is not yet modelled.** How users perceive down-weighting compared with
   removal is a question for user studies, not simulation.
 
-**  Next step:** validation on public coordinated-behaviour benchmarks such as TwiBot-22 and released state-backed information-operations datasets, and replace the latent vectors with real sentence embeddings.
-
+**Next step:** validation on public coordinated-behaviour benchmarks such as TwiBot-22 and released state-backed information-operations datasets, and replace the latent vectors with real sentence embeddings.
 
 ---
-
 
