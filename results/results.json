@@ -1,0 +1,450 @@
+{
+  "drowning": [
+    {
+      "bots_per_campaign": 0,
+      "bot_account_share": 0.0,
+      "sinr_db": null,
+      "displacement": 0.0
+    },
+    {
+      "bots_per_campaign": 5,
+      "bot_account_share": 0.009900990099009901,
+      "sinr_db": 8.816982078606221,
+      "displacement": 0.07142857142857141
+    },
+    {
+      "bots_per_campaign": 10,
+      "bot_account_share": 0.0196078431372549,
+      "sinr_db": 6.25856262969856,
+      "displacement": 0.12301587301587301
+    },
+    {
+      "bots_per_campaign": 20,
+      "bot_account_share": 0.038461538461538464,
+      "sinr_db": 3.5992985927455243,
+      "displacement": 0.23015873015873015
+    },
+    {
+      "bots_per_campaign": 30,
+      "bot_account_share": 0.05660377358490567,
+      "sinr_db": 2.0480139127399615,
+      "displacement": 0.2976190476190476
+    },
+    {
+      "bots_per_campaign": 45,
+      "bot_account_share": 0.08256880733944955,
+      "sinr_db": 0.09993589985199691,
+      "displacement": 0.3412698412698412
+    },
+    {
+      "bots_per_campaign": 60,
+      "bot_account_share": 0.10714285714285714,
+      "sinr_db": -1.0767729088647893,
+      "displacement": 0.3412698412698412
+    },
+    {
+      "bots_per_campaign": 90,
+      "bot_account_share": 0.15254237288135594,
+      "sinr_db": -2.766903420684693,
+      "displacement": 0.32936507936507936
+    },
+    {
+      "bots_per_campaign": 130,
+      "bot_account_share": 0.20634920634920637,
+      "sinr_db": -4.065144786001007,
+      "displacement": 0.3333333333333333
+    },
+    {
+      "bots_per_campaign": 180,
+      "bot_account_share": 0.2647058823529412,
+      "sinr_db": -5.649369242651524,
+      "displacement": 0.33730158730158727
+    }
+  ],
+  "zero_db_crossing_bots_per_campaign": 46.2739247693868,
+  "robustness": [
+    {
+      "adapt": 0.0,
+      "auc_clean": 1.0,
+      "auc_adv": 1.0,
+      "auc_graph": 1.0,
+      "r1_clean": 1.0,
+      "r1_adv": 1.0,
+      "target_share": 10.522222222222222,
+      "bot_volume": 10.522222222222222
+    },
+    {
+      "adapt": 0.125,
+      "auc_clean": 1.0,
+      "auc_adv": 1.0,
+      "auc_graph": 1.0,
+      "r1_clean": 1.0,
+      "r1_adv": 1.0,
+      "target_share": 9.983333333333333,
+      "bot_volume": 10.553703703703702
+    },
+    {
+      "adapt": 0.25,
+      "auc_clean": 0.9629629629629629,
+      "auc_adv": 1.0,
+      "auc_graph": 1.0,
+      "r1_clean": 0.9259259259259259,
+      "r1_adv": 1.0,
+      "target_share": 9.405555555555557,
+      "bot_volume": 10.525925925925925
+    },
+    {
+      "adapt": 0.375,
+      "auc_clean": 0.575925925925926,
+      "auc_adv": 0.999995061728395,
+      "auc_graph": 1.0,
+      "r1_clean": 0.15185185185185182,
+      "r1_adv": 1.0,
+      "target_share": 8.838888888888889,
+      "bot_volume": 10.46111111111111
+    },
+    {
+      "adapt": 0.5,
+      "auc_clean": 0.5,
+      "auc_adv": 0.9997851851851852,
+      "auc_graph": 0.8415654320987654,
+      "r1_clean": 0.0,
+      "r1_adv": 0.9925925925925926,
+      "target_share": 8.094444444444445,
+      "bot_volume": 10.325925925925924
+    },
+    {
+      "adapt": 0.625,
+      "auc_clean": 0.5,
+      "auc_adv": 0.9984395061728395,
+      "auc_graph": 0.5,
+      "r1_clean": 0.0,
+      "r1_adv": 0.9648148148148148,
+      "target_share": 7.546296296296297,
+      "bot_volume": 10.47962962962963
+    },
+    {
+      "adapt": 0.75,
+      "auc_clean": 0.5,
+      "auc_adv": 0.9944401234567902,
+      "auc_graph": 0.5,
+      "r1_clean": 0.0,
+      "r1_adv": 0.9092592592592593,
+      "target_share": 6.937037037037038,
+      "bot_volume": 10.366666666666667
+    },
+    {
+      "adapt": 0.875,
+      "auc_clean": 0.5,
+      "auc_adv": 0.9945987654320988,
+      "auc_graph": 0.5,
+      "r1_clean": 0.0,
+      "r1_adv": 0.8833333333333333,
+      "target_share": 6.275925925925926,
+      "bot_volume": 10.175925925925926
+    },
+    {
+      "adapt": 1.0,
+      "auc_clean": 0.5,
+      "auc_adv": 0.9894703703703703,
+      "auc_graph": 0.5,
+      "r1_clean": 0.0,
+      "r1_adv": 0.8351851851851851,
+      "target_share": 5.51111111111111,
+      "bot_volume": 10.003703703703705
+    }
+  ],
+  "single_feature_auc": {
+    "0.0": {
+      "log_posts": 0.7019851851851853,
+      "interval_cv": 0.34751481481481483,
+      "burstiness": 0.19972962962962962,
+      "spectral_par": 0.8723814814814815,
+      "hour_entropy": 0.9330407407407407,
+      "self_similarity": 1.0,
+      "twin_rate": 0.9996666666666666,
+      "coaction_degree": 1.0,
+      "coaction_strength": 0.9999999999999999
+    },
+    "1.0": {
+      "log_posts": 0.6647981481481482,
+      "interval_cv": 0.353725925925926,
+      "burstiness": 0.2173888888888889,
+      "spectral_par": 0.8607962962962963,
+      "hour_entropy": 0.9288814814814815,
+      "self_similarity": 0.30047777777777773,
+      "twin_rate": 0.5345111111111112,
+      "coaction_degree": 0.49444259259259254,
+      "coaction_strength": 0.4944666666666666
+    }
+  },
+  "mitigation": {
+    "0.0": {
+      "base_sinr_db": -1.1303951329685458,
+      "curve": [
+        {
+          "tau": 0.99,
+          "sinr_gain_db": 16.812412373755873,
+          "auth_silenced": 0.0,
+          "bots_removed": 1.0
+        },
+        {
+          "tau": 0.95,
+          "sinr_gain_db": 16.812412373755873,
+          "auth_silenced": 0.0,
+          "bots_removed": 1.0
+        },
+        {
+          "tau": 0.9,
+          "sinr_gain_db": 16.812412373755873,
+          "auth_silenced": 0.0,
+          "bots_removed": 1.0
+        },
+        {
+          "tau": 0.8,
+          "sinr_gain_db": 16.812412373755873,
+          "auth_silenced": 0.0,
+          "bots_removed": 1.0
+        },
+        {
+          "tau": 0.7,
+          "sinr_gain_db": 16.812412373755873,
+          "auth_silenced": 0.0,
+          "bots_removed": 1.0
+        },
+        {
+          "tau": 0.6,
+          "sinr_gain_db": 16.812412373755873,
+          "auth_silenced": 0.0,
+          "bots_removed": 1.0
+        },
+        {
+          "tau": 0.5,
+          "sinr_gain_db": 16.812412373755873,
+          "auth_silenced": 0.0006666666666666666,
+          "bots_removed": 1.0
+        },
+        {
+          "tau": 0.4,
+          "sinr_gain_db": 16.812412373755873,
+          "auth_silenced": 0.0006666666666666666,
+          "bots_removed": 1.0
+        },
+        {
+          "tau": 0.3,
+          "sinr_gain_db": 16.812412373755873,
+          "auth_silenced": 0.0013333333333333333,
+          "bots_removed": 1.0
+        },
+        {
+          "tau": 0.2,
+          "sinr_gain_db": 16.812412373755873,
+          "auth_silenced": 0.0033333333333333335,
+          "bots_removed": 1.0
+        },
+        {
+          "tau": 0.1,
+          "sinr_gain_db": 16.812412373755873,
+          "auth_silenced": 0.007333333333333333,
+          "bots_removed": 1.0
+        },
+        {
+          "tau": 0.05,
+          "sinr_gain_db": 16.812412373755873,
+          "auth_silenced": 0.008666666666666666,
+          "bots_removed": 1.0
+        },
+        {
+          "tau": 0.02,
+          "sinr_gain_db": 16.812412373755873,
+          "auth_silenced": 0.018666666666666668,
+          "bots_removed": 1.0
+        }
+      ],
+      "soft": {
+        "sinr_gain_db": 16.71963371354719,
+        "auth_weight_lost": 0.0027837036375012447,
+        "displacement_before": 0.32142857142857145,
+        "displacement_after": 0.05952380952380952
+      }
+    },
+    "0.5": {
+      "base_sinr_db": 4.913249583745349,
+      "curve": [
+        {
+          "tau": 0.99,
+          "sinr_gain_db": 6.548030773243838,
+          "auth_silenced": 0.0,
+          "bots_removed": 0.8388888888888889
+        },
+        {
+          "tau": 0.95,
+          "sinr_gain_db": 10.205070007344377,
+          "auth_silenced": 0.0,
+          "bots_removed": 0.95
+        },
+        {
+          "tau": 0.9,
+          "sinr_gain_db": 10.205070007344377,
+          "auth_silenced": 0.0,
+          "bots_removed": 0.95
+        },
+        {
+          "tau": 0.8,
+          "sinr_gain_db": 10.336714700953099,
+          "auth_silenced": 0.0,
+          "bots_removed": 0.9555555555555556
+        },
+        {
+          "tau": 0.7,
+          "sinr_gain_db": 10.88458638253704,
+          "auth_silenced": 0.0,
+          "bots_removed": 0.9666666666666667
+        },
+        {
+          "tau": 0.6,
+          "sinr_gain_db": 10.88458638253704,
+          "auth_silenced": 0.0,
+          "bots_removed": 0.9722222222222222
+        },
+        {
+          "tau": 0.5,
+          "sinr_gain_db": 10.88458638253704,
+          "auth_silenced": 0.0006666666666666666,
+          "bots_removed": 0.9722222222222222
+        },
+        {
+          "tau": 0.4,
+          "sinr_gain_db": 10.940991434584019,
+          "auth_silenced": 0.0006666666666666666,
+          "bots_removed": 0.9777777777777777
+        },
+        {
+          "tau": 0.3,
+          "sinr_gain_db": 10.997396486630999,
+          "auth_silenced": 0.0013333333333333333,
+          "bots_removed": 0.9833333333333333
+        },
+        {
+          "tau": 0.2,
+          "sinr_gain_db": 10.997396486630999,
+          "auth_silenced": 0.0033333333333333335,
+          "bots_removed": 0.9833333333333333
+        },
+        {
+          "tau": 0.1,
+          "sinr_gain_db": 10.997396486630999,
+          "auth_silenced": 0.008,
+          "bots_removed": 0.9833333333333333
+        },
+        {
+          "tau": 0.05,
+          "sinr_gain_db": 10.997396486630999,
+          "auth_silenced": 0.008666666666666666,
+          "bots_removed": 0.9833333333333333
+        },
+        {
+          "tau": 0.02,
+          "sinr_gain_db": 11.214588983557933,
+          "auth_silenced": 0.02,
+          "bots_removed": 0.9944444444444445
+        }
+      ],
+      "soft": {
+        "sinr_gain_db": 10.56774519859903,
+        "auth_weight_lost": 0.0029435853432959735,
+        "displacement_before": 0.3333333333333333,
+        "displacement_after": 0.047619047619047616
+      }
+    },
+    "1.0": {
+      "base_sinr_db": 4.771212547679174,
+      "curve": [
+        {
+          "tau": 0.99,
+          "sinr_gain_db": 0.3705913082500034,
+          "auth_silenced": 0.0,
+          "bots_removed": 0.06111111111111111
+        },
+        {
+          "tau": 0.95,
+          "sinr_gain_db": 0.9764824798350666,
+          "auth_silenced": 0.0,
+          "bots_removed": 0.18888888888888888
+        },
+        {
+          "tau": 0.9,
+          "sinr_gain_db": 1.3844971755661488,
+          "auth_silenced": 0.0,
+          "bots_removed": 0.2722222222222222
+        },
+        {
+          "tau": 0.8,
+          "sinr_gain_db": 1.837728618309094,
+          "auth_silenced": 0.0,
+          "bots_removed": 0.4
+        },
+        {
+          "tau": 0.7,
+          "sinr_gain_db": 2.68273495622356,
+          "auth_silenced": 0.0,
+          "bots_removed": 0.4722222222222222
+        },
+        {
+          "tau": 0.6,
+          "sinr_gain_db": 3.301515966813759,
+          "auth_silenced": 0.0,
+          "bots_removed": 0.5611111111111111
+        },
+        {
+          "tau": 0.5,
+          "sinr_gain_db": 3.6406411649947925,
+          "auth_silenced": 0.0006666666666666666,
+          "bots_removed": 0.6
+        },
+        {
+          "tau": 0.4,
+          "sinr_gain_db": 4.274179961731789,
+          "auth_silenced": 0.0006666666666666666,
+          "bots_removed": 0.6611111111111111
+        },
+        {
+          "tau": 0.3,
+          "sinr_gain_db": 5.006023505323591,
+          "auth_silenced": 0.002,
+          "bots_removed": 0.7055555555555556
+        },
+        {
+          "tau": 0.2,
+          "sinr_gain_db": 6.020599913158985,
+          "auth_silenced": 0.004666666666666667,
+          "bots_removed": 0.75
+        },
+        {
+          "tau": 0.1,
+          "sinr_gain_db": 6.311815923453572,
+          "auth_silenced": 0.008666666666666666,
+          "bots_removed": 0.7777777777777778
+        },
+        {
+          "tau": 0.05,
+          "sinr_gain_db": 6.821886283148671,
+          "auth_silenced": 0.009333333333333334,
+          "bots_removed": 0.8333333333333334
+        },
+        {
+          "tau": 0.02,
+          "sinr_gain_db": 8.23772981452083,
+          "auth_silenced": 0.02,
+          "bots_removed": 0.8888888888888888
+        }
+      ],
+      "soft": {
+        "sinr_gain_db": 3.3104095093345043,
+        "auth_weight_lost": 0.0031396642295380417,
+        "displacement_before": 0.2976190476190476,
+        "displacement_after": 0.20238095238095238
+      }
+    }
+  }
+}
